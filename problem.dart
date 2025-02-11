@@ -3,4 +3,5 @@ void main(List<String> args) {
 
   print("yomonman");
   print("rostanmi");
+  print("rostan");
 }

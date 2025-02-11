@@ -14,6 +14,7 @@ class Solution {
     return -1;
   }
 }
+// second way
 
 // class Solution {
 //   int firstUniqChar(String s) {

@@ -3,4 +3,6 @@ void main(List<String> args) {
   int a = 10;
   print("a = $a");
   // what's up
+  int b=  20;
+  
 }

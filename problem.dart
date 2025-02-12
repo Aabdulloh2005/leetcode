@@ -4,5 +4,8 @@ void main(List<String> args) {
   print("a = $a");
   // what's up
   int b=  20;
+
+  int c = a-b;
   
+
 }

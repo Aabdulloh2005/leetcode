@@ -1,18 +1,20 @@
-int binary_search(int find, List<int> numbers) {
+int binary_search(int target, List<int> items) {
   int left = 0;
-  int right = numbers.length - 1;
+  int right = items.length - 1;
+
   while (left <= right) {
-    int mid = (left + right) ~/ 2;
-    int guess = numbers[mid];
-    if (guess == find) {
-      return mid;
+    int center = (left + right) ~/ 2;
+
+    if (items[center] == target) {
+      return center;
     }
-    if (guess > find) {
-      right = mid - 1;
+    if (items[center] > target) {
+      right = center - 1;
     } else {
-      left = mid + 1;
+      left = center + 1;
     }
   }
+  // throw "not found";
   return -1;
 }
 
